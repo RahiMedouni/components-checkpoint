@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #282c34 solid 2px;
+  background-color: #61dafb;
+}
+.textApp {
+  padding-right: 200px;
 }
 
 .App-logo {
