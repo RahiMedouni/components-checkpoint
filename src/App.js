@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import FullName from './Component/Profile/FullName';
 import Adress from './Component/Profile/Address';
+import ProfilePhoto from './Component/Profile/ProfilePhoto';
 
 function App() {
   return (
     <div className="App">
-      <img src={"/imagevictor.jpg"} alt='inPublic' />
+      <ProfilePhoto />
       <br />
       <div className='textApp'>
      <FullName />
